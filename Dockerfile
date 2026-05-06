@@ -1,8 +1,8 @@
-FROM php:8.2-cli
+FROM php:8.4-cli
 
 WORKDIR /var/www
 
-# Install system dependencies
+# Install dependencies
 RUN apt-get update && apt-get install -y \
     git curl unzip zip sqlite3 libsqlite3-dev
 
@@ -27,5 +27,5 @@ RUN php artisan migrate --seed
 # Expose port
 EXPOSE 10000
 
-# Start server
+# Start Laravel server
 CMD php artisan serve --host=0.0.0.0 --port=10000
