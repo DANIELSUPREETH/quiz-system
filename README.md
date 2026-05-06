@@ -31,7 +31,7 @@ It supports multiple question types and uses a modular architecture for evaluati
 ## ⚙️ Setup Instructions
 
 ### 1. Clone repo
-git clone https://github.com/YOUR_USERNAME/quiz-system.git  
+git clone https://github.com/DANIELSUPREETH/quiz-system.git
 cd quiz-system  
 
 ---
@@ -69,7 +69,7 @@ http://127.0.0.1:8000/quiz/1
 
 ## 🌐 Live Demo
 
-https://your-app-name.onrender.com/quiz/1
+https://quiz-system-production-4333.up.railway.app/quiz/1
 
 ---
 
