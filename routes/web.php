@@ -14,8 +14,9 @@ use App\Models\Quiz;
 
 // Home route (optional)
 Route::get('/', function () {
-    return "Quiz System Running";
+    return redirect('/quiz/1');
 });
+
 
 // Show quiz page
 Route::get('/quiz/{id}', function ($id) {
